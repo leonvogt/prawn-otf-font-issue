@@ -1,0 +1,39 @@
+GIT
+  remote: https://github.com/prawnpdf/pdf-core.git
+  revision: bab396fff04279ba5d2c95896aab28469a636413
+  branch: master
+  specs:
+    pdf-core (0.9.0)
+
+GIT
+  remote: https://github.com/prawnpdf/prawn.git
+  revision: 006917fb57b6f714f162598007e6658f506bda53
+  branch: master
+  specs:
+    prawn (2.4.0)
+      matrix (~> 0.4)
+      pdf-core (~> 0.9.0)
+      ttfunk (~> 1.7)
+
+GIT
+  remote: https://github.com/prawnpdf/ttfunk.git
+  revision: 89682caaca1914e30a87b7844c2247ffa0a9bf62
+  branch: master
+  specs:
+    ttfunk (1.7.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    matrix (0.4.2)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  pdf-core!
+  prawn!
+  ttfunk!
+
+BUNDLED WITH
+   2.4.22
